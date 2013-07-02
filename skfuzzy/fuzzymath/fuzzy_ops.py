@@ -679,7 +679,7 @@ def relation_min(A, B):
     n = len(B)
     A = np.atleast_2d(A)
     B = np.atleast_2d(B)
-    return np.fmin(np.dot(A.T, np.ones((1, m))), np.dot(np.ones((n, 1)), B))
+    return np.fmin(np.dot(A.T, np.ones((1, n))), np.dot(np.ones((m, 1)), B))
 
 
 def relation_product(A, B):
