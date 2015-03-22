@@ -4,10 +4,11 @@ Defuzzification
 ===============
 
 Fuzzy logic calculations are excellent tools, but to use them the fuzzy result
-must be converted back into a single number. This is known as defuzzification.
+must be converted back into a single number. This is known as
+"defuzzification".
 
-There are several possible methods for defuzzification, exposed via
-`skfuzzy.defuzz`.
+There are several methods for defuzzification available in scikit-fuzzy,
+exposed via ``skfuzzy.defuzz``.
 
 """
 import numpy as np
